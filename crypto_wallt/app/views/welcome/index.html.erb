@@ -1,13 +1,12 @@
 <h1>Sistema</h1>
 
-<p> O idioma usado no sistema é : <%= locale %> </p>
+<p> O idioma usado no sistema é : <%= t('actual_locale') %> </p>
 <p> Data: <%= I18n.l(Date.today) %> </p>
 <p> <%= t('hello')  %> </p>
 
 
 <%= link_to "Cadastro de Moedas", coins_path  %> 
 
-<p> OLA</p>
 
 <%= link_to "Cadastro de Tipos de Moedas", mining_types_path  %> 
 
