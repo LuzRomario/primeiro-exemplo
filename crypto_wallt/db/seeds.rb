@@ -15,7 +15,7 @@ tipos = [
     {
     description:"Proof of Stake" ,
     acronym:"SoS" ,
-    }
+    },
 
     {
     description:"Proof of Capacity" ,
