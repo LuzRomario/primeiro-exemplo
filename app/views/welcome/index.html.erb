@@ -1,0 +1,16 @@
+<h1>Sistema</h1>
+
+<p><%= link_to 'Português' , root_path(locale: 'pt-BR') %></p>
+<p><%= link_to 'English' , root_path(locale: 'en') %></p>
+
+<p> O idioma usado no sistema é : <%= t('actual_locale') %> </p>
+<p> Data: <%= I18n.l(Date.today) %> </p>
+<p> <%= t('hello')  %> </p>
+
+
+<%= link_to "Cadastro de Moedas", coins_path  %> 
+
+
+<%= link_to "Cadastro de Tipos de Moedas", mining_types_path  %> 
+
+
