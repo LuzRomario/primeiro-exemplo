@@ -25,7 +25,7 @@ class MiningTypesController < ApplicationController
 
     respond_to do |format|
       if @mining_type.save
-        format.html { redirect_to @mining_type, notice: "Mining type was successfully created." }
+        format.html { redirect_to @mining_type, notice: 'Mining type was successfully created.' }
         format.json { render :show, status: :created, location: @mining_type }
       else
         format.html { render :new, status: :unprocessable_entity }
