@@ -1,13 +1,8 @@
 <div class="container-fluid py-5">
-  <h1 class="display-4">Olá, mundo!</h1>
-  <p class="lead">Este é Crypto Wallet, uma app para você...</p>
+  <h1 class="display-4"><%= t('welcome')%></h1>
+  <p class="lead"><%= t('messages.welcome')%></p>
   <hr class="my-4">
-  <p>Selecione abaixo</p>
+  <p> <%= t('messages.menu') %></p>
   <%= render "menu" %>
 </div>
-<%= link_to "Cadastro de Moedas", coins_path  %> 
-
-
-<%= link_to "Cadastro de Tipos de Moedas", mining_types_path  %> 
-
 

@@ -1,9 +1,0 @@
-class WelcomeController < ApplicationController
-  def index
-<<<<<<< HEAD:app/controllers/welcome_controller.rb
-    cookies[:curso] = "Curso de Ruby on Rails"
-=======
-    cookies[:curso] = 'Curso de Ruby on Rails'
->>>>>>> 48e464e441946229c0e9fec2f8759569a2f02a75:crypto_wallt/app/controllers/welcome_controller.rb
-  end
-end
