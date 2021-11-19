@@ -1,7 +1,12 @@
 pt-BR:
-  actual_locale: "Portugês do Brasil"
+  current_locale: "Portugês do Brasil"
+  welcome: "Olá," 
+  messages:
+    welcome: "Este é Crypto Wallet, uma app para você..."
+    menu: "Para começar, selecione abaixo"
   hello: "Achou BR"
   links:
     edit: "Editar"
     show: "Mostrar"
     delete: "Deletar"
+    new: "Novo"
