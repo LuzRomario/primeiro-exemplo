@@ -10,3 +10,7 @@ pt-BR:
     show: "Mostrar"
     delete: "Deletar"
     new: "Novo"
+    back: "Voltar"
+  new:
+    coin: "Nova Moeda"
+    mining_type: "Novo Tipo de Mineração"
