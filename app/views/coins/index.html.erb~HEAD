@@ -1,10 +1,14 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Coins</h1>
+<h1><%= "#{Coin.model_name.human(count: @coins.count)}" %></h1>
 
 
 
+<<<<<<< HEAD:app/views/coins/index.html.erb
+<table>
+=======
 <table class="table table-striped table-hover">
+>>>>>>> 48e464e441946229c0e9fec2f8759569a2f02a75:crypto_wallt/app/views/coins/index.html.erb
   <thead>
     <tr>
       <th><%= @coins.human_attribute_name(:description) %></th>
@@ -30,4 +34,8 @@
 
 <br>
 
-<%= link_to 'New Coin', new_coin_path , class:"btn btn-primary" %>
+<<<<<<< HEAD:app/views/coins/index.html.erb
+<%= link_to 'New Coin', new_coin_path %>
+=======
+<%= link_to t('links.new'), new_coin_path , class:"btn btn-primary" %>
+>>>>>>> 48e464e441946229c0e9fec2f8759569a2f02a75:crypto_wallt/app/views/coins/index.html.erb

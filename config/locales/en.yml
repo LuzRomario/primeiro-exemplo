@@ -30,7 +30,15 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+<<<<<<< HEAD:config/locales/en.yml
   actual_locale: "English(Interncational)"
+=======
+  current_locale: "English(Interncational)"
+  messages:
+    welcome: "This is Crypto Wallet, an app for you..."
+    menu: "To get started, select below"
+  welcome: "Hello,"
+>>>>>>> 48e464e441946229c0e9fec2f8759569a2f02a75:crypto_wallt/config/locales/en.yml
   hello: "Hello world"
   links:
     edit: "Edit"

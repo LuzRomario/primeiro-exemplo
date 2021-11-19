@@ -1,7 +1,20 @@
 pt-BR:
+<<<<<<< HEAD:config/locales/pt-BR.yml
   actual_locale: "Portugês do Brasil"
+=======
+  current_locale: "Portugês do Brasil"
+  welcome: "Olá," 
+  messages:
+    welcome: "Este é Crypto Wallet, uma app para você..."
+    menu: "Para começar, selecione abaixo"
+>>>>>>> 48e464e441946229c0e9fec2f8759569a2f02a75:crypto_wallt/config/locales/pt-BR.yml
   hello: "Achou BR"
   links:
     edit: "Editar"
     show: "Mostrar"
     delete: "Deletar"
+    new: "Novo"
+    back: "Voltar"
+  new:
+    coin: "Nova Moeda"
+    mining_type: "Novo Tipo de Mineração"

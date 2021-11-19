@@ -13,8 +13,15 @@
 //= require rails-ujs
 //= require activestorage
 //= require turbolinks
+<<<<<<< HEAD:app/assets/javascripts/application.js.erb
+
+<% msg = Time.now < 12 ? "Bom dia!" : "Olá!!" %>
+
+alert("<%= msg %>");
+=======
 //= require jquery
 //= require notify-js-legacy/notify
 //= require bootstrap/dist/js/bootstrap
 //= require popper.js/dist/popper
 
+>>>>>>> 48e464e441946229c0e9fec2f8759569a2f02a75:crypto_wallt/app/assets/javascripts/application.js

@@ -6,13 +6,23 @@
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+<<<<<<< HEAD:app/views/layouts/application.html.erb
+    <%= stylesheet_link_tag    'scaffolds', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= stylesheet_link_tag    params[:controller], media: 'all', 'data-turbolinks-track': 'reload' %>
     
+    <%= javascript_include_tag params[:controller], 'data-turbolinks-track': 'reload' %>
+=======
+    <%= stylesheet_link_tag    params[:controller], media: 'all', 'data-turbolinks-track': 'reload' %>
+    
+>>>>>>> 48e464e441946229c0e9fec2f8759569a2f02a75:crypto_wallt/app/views/layouts/application.html.erb
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag params[:controller], 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
+<<<<<<< HEAD:app/views/layouts/application.html.erb
+
+=======
   <div class="container-fluid">
 
   <ul class="nav justify-content-end">
@@ -25,6 +35,7 @@
 
 </ul>
   
+>>>>>>> 48e464e441946229c0e9fec2f8759569a2f02a75:crypto_wallt/app/views/layouts/application.html.erb
     <%= yield %>
     </div>
   </body>
