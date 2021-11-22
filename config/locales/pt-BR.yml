@@ -2,7 +2,7 @@ pt-BR:
   current_locale: "Portugês do Brasil"
   welcome: "Olá," 
   messages:
-    welcome: "Este é Crypto Wallet, uma app para você cadastrar criptomoedas..."
+    welcome: "Este é Crypto Wallet, uma app para você cadastrar criptomoedas no banco de dados remoto..."
     menu: "Para começar, selecione abaixo"
   hello: "Achou BR"
   links:
