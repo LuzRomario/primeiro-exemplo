@@ -9,7 +9,9 @@ Bundler.require(*Rails.groups)
 module CryptoWallt
   class Application < Rails::Application
     
-    config.assets.initialize_on_precompile = false 
+    config.serve_static_assets = true
+    config.assets.compile = false
+    #config.assets.initialize_on_precompile = false 
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 5.2
 
