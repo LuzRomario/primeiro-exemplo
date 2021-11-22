@@ -1,5 +1,5 @@
 {
-  "name": "crypto_wallt",
+  "name": "primeiro-exemplo",
   "private": true,
   "dependencies": {
     "bootstrap": "^5.1.3",
@@ -12,4 +12,5 @@
   "repository": "https://github.com/LuzRomario/primeiro-exemplo.git",
   "author": "LuzRomario <dangelo.romario@gmail.com>",
   "license": "MIT"
-}
+  }
+
